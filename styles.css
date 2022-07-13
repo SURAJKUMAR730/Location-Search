@@ -618,6 +618,74 @@ body{
         margin-bottom: 40px;
     }
 }
+ @media(max-width:70px) 
+       {
+        .logo{
+            font-size: 18px;
+        }
+        .app-main{
+            width: 40vh;
+            margin: 30px auto;
+            background-color: rgb(165, 169, 172);
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px;
+            border: 2px solid rgb(248, 247, 247);
+            padding-top: 25px;
+        }
+        .app-main > * {
+            margin-bottom: 20px;
+            
+        }
+           
+    
+    
+        .location-details {
+            font-weight: bold;
+            font-size:8px;
+            font-style: bold;
+            color:rgb(253, 247, 247);
+            text-shadow: 1px 1px rgb(59, 58, 58);
+          
+        }
+        .temp {
+            font-size: 10pt;
+            font-weight: 700;
+            margin: 10px 0;
+            text-shadow: 2px 4px rgba(0, 0, 0, 0.61);
+            
+        }
+        .input-box {
+            width: 100%;
+            background-color: rgb(253, 252, 252);
+            border: none;
+            outline: none;
+            color: #000000;
+            font-size: 1.2rem;
+            height: 20px;
+            border-radius: 5px;
+            padding: 0 10px;
+            text-align: center;
+            border-radius: 8px;
+            border: 1px solid rgb(158, 154, 148);
+        }
+        .weather-body {
+            display: none;
+            color: #fcf8f9;
+            padding: 10px;
+            line-height: 2rem;
+            border-radius: 10px;
+            background-color: rgb(66, 79, 99);
+            height: 40vh;
+            border-radius: 8px;
+            border: 2px solid rgb(255, 253, 250);
+        }
+        .min-max ,.weather {
+            font-size: 6pt;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+    }
         
 
 
