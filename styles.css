@@ -107,7 +107,7 @@ body {
     font-weight: 600;
     margin-bottom: 40px;
 }
-@media(max-width:1650px){
+/* @media(max-width:1650px){ 
 
     body{
         background-size:auto;
@@ -251,7 +251,7 @@ body {
     }
 
 
-}
+}*/
 
 @media(max-width:850px){
 
